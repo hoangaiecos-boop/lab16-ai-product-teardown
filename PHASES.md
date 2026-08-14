@@ -3,6 +3,8 @@
 > Phạm vi: ElevenLabs từ public beta tháng 1/2023 đến tháng 8/2026.  
 > Output cuối: [`memo.md`](memo.md), [`slides.pdf`](slides.pdf) và [`slides.pptx`](slides.pptx).
 
+**Nhóm 5:** Nguyễn Tấn Hoàng — 2A202601198 (Leader); Nguyễn Minh Đức — 2A202601946; Đỗ Tú Anh — 2A202601272; Trần Hoàng Quân — 2A202601805; Trần Thị Hoa Mai — 2A202601317.
+
 ## Phase 0 · Khởi động và phân vai — 10 phút
 
 ### Mục tiêu
@@ -217,4 +219,3 @@ Khai báo trung thực quá trình dùng AI. AI log được chấm ở ranh gi�
 | [`slides.md`](slides.md) | Nội dung/talk track từng slide |
 | [`sources/README.md`](sources/README.md) | Kiểm nguồn và phân biệt claim/observation |
 | [`CHECKLIST.md`](CHECKLIST.md) | Tự chấm trước khi nộp |
-

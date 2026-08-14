@@ -5,7 +5,9 @@
 ## Slide 1 · Từ “giọng nói wow” đến hạ tầng tương tác
 
 **ElevenLabs Product Teardown**
-Nhóm: Chưa cập nhật · Thành viên: Chưa cập nhật
+
+Nhóm 5 · Leader: Nguyễn Tấn Hoàng — 2A202601198
+Nguyễn Minh Đức — 2A202601946 · Đỗ Tú Anh — 2A202601272 · Trần Hoàng Quân — 2A202601805 · Trần Thị Hoa Mai — 2A202601317
 
 **Luận điểm:** ElevenLabs dùng TTS làm wedge, sau đó đi lên stack theo chuỗi **model → workflow → marketplace → enterprise platform**. Moat tương lai không chỉ là giọng hay, mà là trust và khả năng vận hành outcome ở quy mô lớn.
 
@@ -96,4 +98,3 @@ Voice talent muốn cấp phép digital replica với terms và payout, không m
 **Câu hỏi:** Nếu model voice bị commoditize, ElevenLabs nên ưu tiên làm contact-center platform, creative suite hay neutral audio infrastructure—và lựa chọn nào giữ được lợi thế mạnh nhất?
 
 Nguồn đầy đủ và AI log: `memo.md`.
-

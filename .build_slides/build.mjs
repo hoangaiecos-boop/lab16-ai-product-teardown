@@ -47,7 +47,9 @@ function notes(slide, urls) {
   text(s,"MARKETPLACE",900,290,250,40,24,C.white,true);
   text(s,"PLATFORM",900,370,250,40,24,C.white,true);
   text(s,"Moat tương lai = trust + outcome ở quy mô lớn",900,460,250,65,18,C.pale,true);
-  text(s,"Cập nhật 14.08.2026  ·  Nhóm: Chưa cập nhật",72,634,650,28,16,C.muted);
+  text(s,"Nhóm 5 · Leader: Nguyễn Tấn Hoàng — 2A202601198",72,604,650,22,13,C.muted);
+  text(s,"Nguyễn Minh Đức — 2A202601946 · Đỗ Tú Anh — 2A202601272",72,627,650,20,12,C.muted);
+  text(s,"Trần Hoàng Quân — 2A202601805 · Trần Thị Hoa Mai — 2A202601317",72,648,700,20,12,C.muted);
   notes(s,["https://elevenlabs.io/blog/500m-arr-and-new-investors"]);
 }
 

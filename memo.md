@@ -1,7 +1,13 @@
 # AI Product Teardown · ElevenLabs
 
-**Nhóm:** Chưa cập nhật
-**Thành viên:** Chưa cập nhật
+**Nhóm:** Nhóm 5
+**Thành viên:**
+
+1. Nguyễn Tấn Hoàng — 2A202601198 — Leader
+2. Nguyễn Minh Đức — 2A202601946 — Thành viên
+3. Đỗ Tú Anh — 2A202601272 — Thành viên
+4. Trần Hoàng Quân — 2A202601805 — Thành viên
+5. Trần Thị Hoa Mai — 2A202601317 — Thành viên
 **Ngày:** 2026-08-14
 **Phạm vi phân tích:** ElevenLabs toàn cầu, từ public beta tháng 1/2023 đến tháng 8/2026
 **Luận điểm chính:** ElevenLabs dùng chất lượng TTS như một wedge để thu hút creator, rồi tuần tự đóng gói model thành workflow, marketplace và cuối cùng là hạ tầng agent cho enterprise; 6–12 tháng tới, lợi thế của công ty sẽ dịch từ “giọng hay nhất” sang khả năng vận hành hội thoại và IP âm thanh có kiểm soát ở quy mô lớn.
@@ -105,7 +111,7 @@ Sự dịch chuyển này được hỗ trợ bởi ba quyết định trong tim
 - Phần lớn số liệu adoption/ARR do ElevenLabs tự công bố vì công ty tư nhân; không có báo cáo tài chính đã kiểm toán công khai. Memo ghi rõ nguồn và không suy ra profitability.
 - Review cộng đồng và thử nghiệm Duke là bằng chứng định tính, không đại diện toàn bộ customer base. Chúng được dùng để tìm friction, không để ước lượng prevalence.
 - Product surface thay đổi nhanh. Dự đoán dùng trạng thái đến 2026-08-14 và nên được chấm theo chất lượng cơ chế, không chỉ kết quả cuối.
-- Tên nhóm/thành viên chưa được cung cấp và cần điền trước khi nộp.
+- Vai trò cụ thể ngoài Leader chưa được nhóm chỉ định; memo ghi mặc định là “Thành viên”.
 
 ## Tài liệu tham khảo
 
@@ -124,4 +130,3 @@ Sự dịch chuyển này được hỗ trợ bởi ba quyết định trong tim
 13. TIME, [“ElevenLabs CEO Mati Staniszewski on Darth Vader, Competition and Preventing Misuse”](https://time.com/7325957/mati-staniszewski-elevenlabs-interview/), 2025-10-15 — user mix, agents và omni-model direction.
 14. Associated Press, [“Tests find AI tools readily create election lies”](https://apnews.com/article/2500813b642169478c27c168aab1b3e3), 2024 — independent safeguard comparison.
 15. Duke Digital Media Community, [“ElevenLabs Falls Short”](https://sites.duke.edu/ddmc/2024/10/23/eleven-labs-falls-short/), 2024-10-23 — workflow/pricing friction.
-
