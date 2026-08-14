@@ -16,6 +16,7 @@ Trong lab này, nhóm chọn một sản phẩm có AI, dựng lại chuỗi quy
 Repo đã có sẵn:
 
 - [`memo.md`](memo.md): template bài nộp chính.
+- [`PHASES.md`](PHASES.md): hướng dẫn đầy đủ theo phase, đã map vào case ElevenLabs.
 - [`slides.md`](slides.md): storyboard để làm slide và xuất PDF.
 - [`sources/README.md`](sources/README.md): cách lưu và kiểm chứng nguồn.
 - [`CHECKLIST.md`](CHECKLIST.md): rubric 100 điểm và checklist trước khi nộp.
