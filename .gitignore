@@ -11,6 +11,7 @@ drafts/
 .build_slides/node_modules
 .build_slides/rendered/
 .build_slides/pdf_render/
+.build_slides/team_verify/
 .build_slides/montage.webp
 .build_slides/contact.png
 .build_slides/pdf-contact.png
