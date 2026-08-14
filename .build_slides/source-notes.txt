@@ -1,0 +1,3 @@
+Deck sources are embedded in each slide speaker notes under [Sources].
+Primary sources: ElevenLabs product blog posts dated 2023–2026.
+Independent checks: Associated Press, TIME, Duke Digital Media Community.

@@ -1,63 +1,99 @@
-# Storyboard slide · AI Product Teardown
+# Slide deck · ElevenLabs Product Teardown
 
-> Dùng file này để chốt câu chuyện trước khi thiết kế. Mục tiêu 6–8 slide, khoảng 5–7 phút trình bày. Xuất bản cuối thành `slides.pdf`.
+> 8 slide · 6–7 phút · cập nhật 2026-08-14
 
-## Slide 1 · Sản phẩm và luận điểm
+## Slide 1 · Từ “giọng nói wow” đến hạ tầng tương tác
 
-- Tên sản phẩm, tên nhóm, thành viên.
-- Một câu: sản phẩm giúp ai hoàn thành việc gì.
-- Một câu luận điểm: quỹ đạo sản phẩm đã đi đâu và nhóm dự đoán điều gì tiếp theo.
+**ElevenLabs Product Teardown**
+Nhóm: Chưa cập nhật · Thành viên: Chưa cập nhật
 
-## Slide 2 · Timeline quyết định
+**Luận điểm:** ElevenLabs dùng TTS làm wedge, sau đó đi lên stack theo chuỗi **model → workflow → marketplace → enterprise platform**. Moat tương lai không chỉ là giọng hay, mà là trust và khả năng vận hành outcome ở quy mô lớn.
 
-- Một trục thời gian gồm 6–8 mốc.
-- Mỗi mốc chỉ giữ: thời điểm, quyết định, tên nguyên lý.
-- Dùng màu để gom các mốc cùng pattern.
+*Visual:* bốn khối nối tiếp Model → Workflow → Marketplace → Platform.
 
-**Câu nói chính:** “Nhìn riêng từng feature thì rời rạc; nhìn cả chuỗi, chúng tôi thấy pattern …”
+## Slide 2 · Timeline: tám quyết định, một quỹ đạo
 
-## Slide 3 · Hai pattern cốt lõi
+| 2023 | 2024 | 2025 | 2026 |
+|---|---|---|---|
+| **01:** TTS + cloning beta → safety friction | **02:** Voice payouts marketplace | **02:** Scribe sở hữu input loop | **05:** Dubbing v2 + Productions |
+| **08:** Multilingual v2 | **11:** Conversational AI + Workspaces | **09–10:** Agents + Tests + Workflows | **07:** Spotlight đóng outcome loop |
+| **10:** Dubbing + Studio | | | |
 
-- Pattern 1: quyết định nào → cơ chế nào → kết quả gì.
-- Pattern 2: quyết định nào → cơ chế nào → kết quả gì.
-- Nêu một đánh đổi hoặc điều kiện biên.
+**Câu nói:** Nhìn riêng là feature; nhìn theo chuỗi là một chiến lược đi lên stack trước khi model bị commoditize.
 
-## Slide 4 · User và JTBD đã dịch chuyển
+Nguồn: ElevenLabs product blog 2023–2026; AP.
 
-- Cột trái: early adopters + JTBD.
-- Cột phải: tệp hiện tại + JTBD.
-- Mũi tên giữa: quyết định nào đã mở rộng/thay đổi tệp.
+## Slide 3 · Ba nguyên lý có thể tái sử dụng
 
-## Slide 5 · Switching dynamics
+1. **Productize the workflow, not the model**
+   Dubbing gom STT → dịch → clone → timing; Agents gom voice → tools → testing → monitoring.
 
-- Bốn lực: Push, Pull, Anxiety, Habit.
-- Nhấn mạnh lực mạnh nhất và hệ quả chiến lược.
+2. **Turn a risk into a marketplace**
+   Voice consent + control + payout tạo supply, trust và network effects; hơn **$22M payout** đến 5/2026.
 
-## Slide 6 · Ba dự đoán
+3. **Cross the production chasm**
+   Enterprise mua reliability và control, không mua demo. Tests, Workflows, handoff và Spotlight mới mở deployment lớn.
 
-Với mỗi dự đoán, chỉ trình bày:
+**Đánh đổi:** breadth tăng TAM/cross-sell nhưng reliability ở agent quan trọng hơn thêm một modality.
 
-1. Điều gì sẽ xảy ra trong 6–12 tháng.
-2. Bằng chứng từ timeline.
-3. Bằng chứng từ user/JTBD.
+Nguồn: Voice Actor Payouts; Introducing Agents; Spotlight.
 
-## Slide 7 · Dự đoán đáng tranh luận nhất
+## Slide 4 · User đã phân tầng, không bị thay thế
 
-- Đào sâu dự đoán có upside hoặc uncertainty lớn nhất.
-- Nêu tín hiệu sớm cần theo dõi.
-- Nêu điều gì sẽ khiến nhóm đổi ý.
+### Early adopters
+
+**Ai:** YouTuber, indie author, game dev, localization team nhỏ.
+**JTBD:** “Khi không có studio/talent, tôi muốn tạo voiceover giống người trong vài phút để publish nhanh với ngân sách nhỏ.”
+**Success:** quality, speed, cost.
+
+### Tệp hiện tại
+
+**Ai:** creative/marketing team và enterprise CX/product/ops.
+**JTBD:** “Khi phải phục vụ hàng nghìn user đa channel/ngôn ngữ, tôi muốn deploy và kiểm soát voice workflow end-to-end để tăng resolution/conversion mà không tăng headcount tuyến tính.”
+**Success:** task completion, latency, compliance, auditability.
+
+### Supply side
+
+Voice talent muốn cấp phép digital replica với terms và payout, không mất quyền identity.
+
+## Slide 5 · Switching: pilot dễ, production khó
+
+| Force | Cường độ | Ý nghĩa |
+|---|---|---|
+| **Push** | Mạnh | Recording/dubbing/support truyền thống đắt và chậm |
+| **Pull** | Mạnh | Voice tự nhiên + multilingual + platform end-to-end |
+| **Anxiety** | Rất mạnh | Deepfake, hallucination, PII, mistranslation, disclosure |
+| **Habit** | Vừa–mạnh | DAW, talent, contact center, CRM, telephony đã cắm sâu |
+
+**Insight:** demo quality mở cửa; trust + integration quyết định deployment. Sau khi deploy, evaluation sets, workflow, brand voice và conversation history tạo switching cost bền hơn model.
+
+## Slide 6 · Ba dự đoán cho 8/2026–8/2027
+
+1. **Vertical Agents:** ít nhất hai gói theo ngành, kèm workflow/evaluation/compliance và managed deployment; bán outcome thay vì phút gọi.
+2. **Rights marketplace:** voice marketplace mở thành identity pack đa phương tiện; cumulative payout vượt **$40M**.
+3. **Audio-native agent model:** preview/GA model audio-in/audio-out full-duplex, nhưng giữ custom LLM/STT để enterprise không bị lock-in.
+
+**Logic chung:** timeline cho thấy ElevenLabs luôn đóng loop còn thiếu; user analysis cho thấy bottleneck tiếp theo là production trust và IP control.
+
+## Slide 7 · Dự đoán đáng tranh luận nhất: rights marketplace
+
+**Vì sao có thể đúng**
+
+- Payout tăng từ $11M lên $22M trong sáu tháng.
+- Creative đang gộp voice, music, image/video và managed Productions.
+- Brand/talent cần identity nhất quán đa ngôn ngữ; creator cần consent và revenue share.
+
+**Tín hiệu sớm:** unified rights dashboard, Music Marketplace mở rộng, provenance API, deal với estate/label, payout đạt ~$30M cuối 2026.
+
+**Điều khiến nhóm đổi ý:** litigation khiến catalog co lại; payout growth chậm; buyer tiếp tục thích stock assets hơn licensed identity.
 
 ## Slide 8 · Kết luận và câu hỏi thảo luận
 
-- Một pattern nhóm sẽ tái sử dụng ở sản phẩm khác.
-- Một câu hỏi mở để cả lớp phản biện.
-- QR/link tới memo nếu phù hợp.
+**Pattern mang đi:** AI model tạo wedge; workflow tạo retention; trust/data loop tạo moat.
 
-## Checklist thiết kế
+**Kết luận:** ElevenLabs thắng vòng đầu bằng “nghe như người”. Vòng sau sẽ được quyết định bởi “hoạt động đáng tin như một hệ thống”.
 
-- Mỗi slide có đúng một thông điệp chính.
-- Không chép bảng dài từ memo lên slide.
-- Mọi số liệu hoặc tuyên bố quan trọng có nguồn ở chân slide.
-- Cỡ chữ đủ đọc; timeline và labels không quá dày.
-- Tập nói ít nhất một lượt, có người giữ thời gian.
+**Câu hỏi:** Nếu model voice bị commoditize, ElevenLabs nên ưu tiên làm contact-center platform, creative suite hay neutral audio infrastructure—và lựa chọn nào giữ được lợi thế mạnh nhất?
+
+Nguồn đầy đủ và AI log: `memo.md`.
 

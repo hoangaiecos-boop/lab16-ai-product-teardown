@@ -1,5 +1,7 @@
 # Lab 16 · AI Product Teardown
 
+**Case study đã chọn:** [ElevenLabs](https://elevenlabs.io/) · Bản phân tích cập nhật đến 2026-08-14 nằm trong [`memo.md`](memo.md).
+
 > **120 phút · Trung cấp · Làm theo nhóm**
 
 Trong lab này, nhóm chọn một sản phẩm có AI, dựng lại chuỗi quyết định sản phẩm, revert từng quyết định về nguyên lý, phân tích tệp user và JTBD, rồi đưa ra ba dự đoán cho 6–12 tháng tới.
@@ -133,4 +135,3 @@ Dùng [`slides.md`](slides.md) làm storyboard 6–8 slide. Ưu tiên một bi�
 2. Chia nguồn theo bốn nhóm trong `sources/README.md`.
 3. Điền memo ngay trong lúc research; không đợi tới phút 75 mới ghép bài.
 4. Sau mỗi phần, mở `CHECKLIST.md` và tự chấm nhanh.
-
